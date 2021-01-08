@@ -6,6 +6,13 @@ namespace Components
 	{
 	public:
 		XInput();
+		static Game::dvar_t* input_viewSensitvity;
+		static Game::dvar_t* input_invertPitch;
+		static Game::dvar_t* gpad_button_lstick_deflect_max;
+		static Game::dvar_t* gpad_button_rstick_deflect_max;
+		static Game::dvar_t* gpad_button_deadzone;
+		static Game::dvar_t* gpad_stick_deadzone_min;
+		static Game::dvar_t* gpad_stick_deadzone_max;
 
 	private:
 		static XINPUT_STATE xiStates[XUSER_MAX_COUNT];

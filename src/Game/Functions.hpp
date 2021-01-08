@@ -796,6 +796,8 @@ namespace Game
 	extern float* cl_angles;
 	extern float* cgameFOVSensitivityScale;
 
+	extern GraphFloat* aaInputGraph;
+
 	extern int* svs_time;
 	extern int* svs_numclients;
 	extern client_t* svs_clients;

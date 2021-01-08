@@ -353,6 +353,8 @@ namespace Game
 	float* cl_angles = reinterpret_cast<float*>(0xB2F8D0);
 	float* cgameFOVSensitivityScale = reinterpret_cast<float*>(0xB2F884);
 
+	GraphFloat *aaInputGraph = reinterpret_cast<GraphFloat*>(0x7A2FC0);
+
 	int* svs_time = reinterpret_cast<int*>(0x31D9384);
 	int* svs_numclients = reinterpret_cast<int*>(0x31D938C);
 	client_t* svs_clients = reinterpret_cast<client_t*>(0x31D9390);

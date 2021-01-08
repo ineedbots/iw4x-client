@@ -4816,6 +4816,16 @@ namespace Game
 		GfxCmdBufState *state;
 	};
 
+	struct GraphFloat
+	{
+	  char name[64];
+	  float knots[32][2];
+	  int knotCount;
+	  float scale;
+	};
+
+	
+
 #pragma endregion
 
 #ifndef IDA
