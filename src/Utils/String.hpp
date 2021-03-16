@@ -27,7 +27,7 @@ namespace Utils
 				{
 					int res = vsnprintf_s(entry->buffer, entry->size, _TRUNCATE, format, ap);
 					if (res > 0) break; // Success
-					if (res == 0) return ""; // Error
+					if (res == 0) return (char*)""; // Error
 
 					entry->doubleSize();
 				}

@@ -22,7 +22,7 @@ namespace Components
 			return this->token;
 		}
 
-		return "";
+		return (char*)"";
 	}
 
 	template<> const char* UIScript::Token::get()
